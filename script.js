@@ -25,7 +25,7 @@ const CONFIG = {
   // Direct link to the APK on GitHub Releases. Empty = download disabled.
   // Example format only (not a real link):
   // "https://github.com/USERNAME/NAZM-AI/releases/download/v1.0.0/NAZM-AI.apk"
-  APP_DOWNLOAD_URL: "",
+  APP_DOWNLOAD_URL: "sha256:01cbd79b24e6084f33e6dc0a51578ad497c3ac24a4591c6571031afff95cd689",
 
   // Update notes shown in the Updates section. Empty = placeholder shown.
   UPDATE_NOTES_BN: {
