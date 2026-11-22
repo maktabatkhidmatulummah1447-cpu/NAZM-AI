@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAZM AI | Official Application Website</title>
+  <meta name="description" content="NAZM AI — একটি আধুনিক ব্যক্তিগত ব্যবস্থাপনা ও উৎপাদনশীলতা অ্যাপ। Official website: features, screenshots, download, updates, developer and management information." />
+  <meta name="theme-color" content="#1f4a3a" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NAZM AI | Official Application Website" />
+  <meta property="og:description" content="NAZM AI — personal management and productivity app. নাজম AI অফিসিয়াল ওয়েবসাইট।" />
+  <meta property="og:image" content="assets/logo-icon.png" />
+  <meta property="og:url" content="https://USERNAME.github.io/NAZM-AI-WEBSITE/" />
+  <meta property="og:site_name" content="NAZM AI" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo-icon.png" />
+  <link rel="apple-touch-icon" href="assets/logo-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@500;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- ============================ NAVBAR ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="NAZM AI">
+        <img src="assets/logo-icon.png" alt="NAZM AI logo" class="brand-logo" width="40" height="40" />
+        <span class="brand-text">
+          <strong>NAZM AI</strong>
+          <small>نظم AI · নাজম AI</small>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="#home" data-i18n="navHome">হোম</a>
+        <a href="#about" data-i18n="navAbout">NAZM সম্পর্কে</a>
+        <a href="#features" data-i18n="navFeatures">ফিচার</a>
+        <a href="#preview" data-i18n="navPreview">অ্যাপ প্রিভিউ</a>
+        <a href="#download" data-i18n="navDownload">ডাউনলোড</a>
+        <a href="#updates" data-i18n="navUpdates">আপডেট</a>
+        <a href="#developer" data-i18n="navDeveloper">ডেভেলপার</a>
+        <a href="#management" data-i18n="navManagement">ব্যবস্থাপনা</a>
+        <a href="#contact" data-i18n="navContact">যোগাযোগ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="bn" aria-pressed="true">বাংলা</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
+        </div>
+        <button type="button" class="icon-btn" id="themeToggle" aria-label="Toggle theme" aria-pressed="false">☾</button>
+        <button type="button" class="icon-btn menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="badge" data-i18n="heroBadge">অফিসিয়াল অ্যাপ ওয়েবসাইট</span>
+          <img src="assets/logo-main.png" alt="NAZM AI logo" class="hero-logo" width="320" height="auto" />
+          <h1 class="hero-title" data-i18n="heroTitle">NAZM AI</h1>
+          <p class="hero-arabic" lang="ar" data-i18n="heroArabic">نظم AI</p>
+          <p class="hero-intro bn" data-i18n="heroIntroBn">NAZM AI একটি আধুনিক ব্যক্তিগত ব্যবস্থাপনা ও উৎপাদনশীলতা অ্যাপ।</p>
+          <p class="hero-intro en" data-i18n="heroIntroEn">NAZM AI is a modern personal management and productivity application.</p>
+          <div class="hero-actions">
+            <a href="#download" id="heroDownloadBtn" class="btn btn-primary" data-i18n="heroDownload">অ্যাপ ডাউনলোড করুন</a>
+            <a href="#features" class="btn btn-ghost" data-i18n="heroExplore">ফিচার দেখুন</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="phone-frame">
+            <img src="assets/screenshot-dashboard.jpg" alt="NAZM AI main dashboard" loading="eager" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="aboutTitle">NAZM AI সম্পর্কে</h2>
+          <p class="subtitle" data-i18n="aboutSubtitle">About NAZM AI</p>
+        </header>
+
+        <div class="about-grid">
+          <article class="card reveal">
+            <h3 data-i18n="aboutWhatTitle">NAZM AI কী?</h3>
+            <p class="bn-line" data-i18n="aboutWhatBody">NAZM AI একটি Android অ্যাপ্লিকেশন।</p>
+            <p class="en-line" data-i18n="aboutWhatBodyEn">NAZM AI is an Android application.</p>
+          </article>
+          <article class="card reveal">
+            <h3 data-i18n="aboutVisionTitle">দৃষ্টিভঙ্গি (Vision)</h3>
+            <p data-i18n="aboutVisionBody">প্রযুক্তি ও প্রয়োজনীয় সহায়ক টুলের মাধ্যমে মানুষের দৈনন্দিন জীবনকে আরও শৃঙ্খলাবদ্ধ ও কার্যকর করা।</p>
+          </article>
+          <article class="card reveal">
+            <h3 data-i18n="aboutPurposeTitle">উদ্দেশ্য (Purpose)</h3>
+            <p class="bn-line" data-i18n="aboutPurposeBody">দৈনন্দিন কাজ, সময় ব্যবস্থাপনা, অভ্যাস, পরিকল্পনা ও ব্যক্তিগত কার্যক্রমকে একটি সমন্বিত প্ল্যাটফর্মে নিয়ে আসা।</p>
+            <p class="en-line" data-i18n="aboutPurposeBodyEn">The purpose of NAZM AI is to bring daily tasks together into one integrated platform.</p>
+          </article>
+          <article class="card reveal">
+            <h3 data-i18n="aboutObjTitle">লক্ষ্যসমূহ (Objectives)</h3>
+            <ul class="check-list">
+              <li data-i18n="aboutObj1">দৈনন্দিন কাজ ও সময়সূচি এক জায়গায় সাজানো</li>
+              <li data-i18n="aboutObj2">রুটিন ও অভ্যাস নিয়মিতভাবে অনুসরণ করতে সহায়তা</li>
+              <li data-i18n="aboutObj3">গুরুত্বপূর্ণ কাজের জন্য সময়মতো মনে করিয়ে দেওয়া</li>
+              <li data-i18n="aboutObj4">সহজ ও পরিষ্কার ব্যবহারকারী অভিজ্ঞতা দেওয়া</li>
+            </ul>
+          </article>
+          <article class="card reveal wide">
+            <h3 data-i18n="aboutUxTitle">ব্যবহারকারী অভিজ্ঞতার দর্শন (UX Philosophy)</h3>
+            <p data-i18n="aboutUxBody">সহজ, পরিষ্কার ও শান্ত ইন্টারফেস, যাতে ব্যবহারকারী মনোযোগ হারান না।</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FEATURES ============================ -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="featuresTitle">সকল ফিচারসমূহ</h2>
+          <p class="subtitle" data-i18n="featuresSubtitle">All Features</p>
+        </header>
+        <div class="feature-grid" id="featuresGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============================ APP PREVIEW ============================ -->
+    <section id="preview" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="previewTitle">অ্যাপের এক ঝলক</h2>
+          <p class="subtitle" data-i18n="previewSubtitle">App Preview</p>
+          <p class="muted" id="previewHint">ছবিতে ক্লিক করে বড় করে দেখুন</p>
+        </header>
+        <div class="gallery-wrap reveal">
+          <button type="button" class="gallery-nav" id="galleryPrev" aria-label="Scroll left">‹</button>
+          <div class="gallery-track" id="galleryTrack" tabindex="0" aria-label="App screenshots"></div>
+          <button type="button" class="gallery-nav" id="galleryNext" aria-label="Scroll right">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ DOWNLOAD ============================ -->
+    <section id="download" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="downloadTitle">অ্যাপ ডাউনলোড</h2>
+          <p class="subtitle" data-i18n="downloadSubtitle">Download</p>
+        </header>
+
+        <div class="download-card reveal">
+          <div class="download-brand">
+            <img src="assets/logo-icon.png" alt="NAZM AI logo" width="96" height="96" />
+            <h3>NAZM AI</h3>
+          </div>
+          <dl class="info-list">
+            <div><dt data-i18n="dlVersion">সংস্করণ (Version)</dt><dd id="infoVersion">শীঘ্রই জানানো হবে</dd></div>
+            <div><dt data-i18n="dlRelease">প্রকাশের তারিখ (Release date)</dt><dd id="infoRelease">শীঘ্রই জানানো হবে</dd></div>
+            <div><dt data-i18n="dlSize">APK সাইজ</dt><dd id="infoSize">শীঘ্রই জানানো হবে</dd></div>
+            <div><dt data-i18n="dlAndroid">ন্যূনতম Android প্রয়োজনীয়তা</dt><dd id="infoAndroid">শীঘ্রই জানানো হবে</dd></div>
+          </dl>
+          <a href="#" id="downloadBtn" class="btn btn-primary btn-lg is-disabled" aria-disabled="true" data-i18n="dlButton">APK ডাউনলোড করুন</a>
+          <p class="notice" id="downloadNotice" role="status" data-i18n="dlUnavailable">অ্যাপটি এখনো ডাউনলোডের জন্য প্রস্তুত নয়।</p>
+        </div>
+
+        <div class="guide reveal">
+          <h3 data-i18n="dlGuideTitle">ইনস্টলেশন গাইড</h3>
+          <ol>
+            <li data-i18n="dlStep1">উপরের বাটন থেকে APK ফাইলটি ডাউনলোড করুন।</li>
+            <li data-i18n="dlStep2">ফোনের সেটিংসে গিয়ে "অজানা উৎস থেকে ইনস্টল" অনুমতি দিন।</li>
+            <li data-i18n="dlStep3">ডাউনলোড হওয়া APK ফাইলে ট্যাপ করে Install বাটনে ক্লিক করুন।</li>
+            <li data-i18n="dlStep4">ইনস্টল শেষ হলে NAZM AI খুলে ব্যবহার শুরু করুন।</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ UPDATES ============================ -->
+    <section id="updates" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="updatesTitle">আপডেট</h2>
+          <p class="subtitle" data-i18n="updatesSubtitle">Updates</p>
+        </header>
+        <div class="update-card reveal">
+          <div class="update-meta">
+            <div><span data-i18n="updLatest">সর্বশেষ সংস্করণ</span> <strong id="updVersion">শীঘ্রই জানানো হবে</strong></div>
+            <div><span data-i18n="dlRelease">প্রকাশের তারিখ</span> <strong id="updDate">শীঘ্রই জানানো হবে</strong></div>
+          </div>
+          <h3 data-i18n="updNotes">কী নতুন আছে (What's New)</h3>
+          <div id="updNotesBody"></div>
+          <a href="#" id="updateDownloadBtn" class="btn btn-primary is-disabled" aria-disabled="true" data-i18n="updButton">সর্বশেষ আপডেট ডাউনলোড করুন</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ DEVELOPER ============================ -->
+    <section id="developer" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="devTitle">অ্যাপ ডেভেলপার</h2>
+          <p class="subtitle" data-i18n="devSubtitle">Developer Profile</p>
+        </header>
+        <div class="profile-card reveal">
+          <div class="avatar" id="devAvatar" aria-hidden="true"><span class="avatar-initials">SJ</span></div>
+          <div class="profile-body">
+            <h3 data-i18n="devName">সাঈদ জামিল</h3>
+            <p class="designation" data-i18n="devDesignation">Application Developer · Software Developer & Technical Maintainer</p>
+            <p id="devBio"></p>
+            <h4 data-i18n="devRespTitle">দায়িত্বসমূহ</h4>
+            <ul class="check-list">
+              <li data-i18n="devResp1">অ্যাপ্লিকেশন উন্নয়ন ও প্রযুক্তিগত বাস্তবায়ন</li>
+              <li data-i18n="devResp2">প্রযুক্তিগত রক্ষণাবেক্ষণ</li>
+              <li data-i18n="devResp3">সফটওয়্যার উন্নতি ও আপডেট</li>
+            </ul>
+            <div class="profile-links">
+              <a href="#" id="devEmailBtn" class="btn btn-ghost" hidden><span data-i18n="devEmail">ইমেইল</span>: <span id="devEmailText"></span></a>
+              <a href="#" id="devFbBtn" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" hidden data-i18n="devFacebook">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ MANAGEMENT ============================ -->
+    <section id="management" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="mgmtTitle">প্রতিষ্ঠা ও ব্যবস্থাপনা</h2>
+          <p class="subtitle" data-i18n="mgmtSubtitle">Founder & Management</p>
+        </header>
+        <div class="mgmt-card reveal">
+          <p class="mgmt-label" data-i18n="mgmtLabel">Founder & Main Management</p>
+          <h3 class="mgmt-org bn" data-i18n="mgmtOrgName">খিদমাতুল উম্মাহ পাঠাগার</h3>
+          <h3 class="mgmt-org en" data-i18n="mgmtOrgNameEn">Khidmatul Ummah Library</h3>
+          <p class="mgmt-desig" data-i18n="mgmtDesig">Founder & Main Management of NAZM AI</p>
+          <p class="bn-line" data-i18n="mgmtBodyBn">নাজম AI-এর প্রতিষ্ঠা ও প্রধান ব্যবস্থাপনা খিদমাতুল উম্মাহ পাঠাগারের অধীনে পরিচালিত।</p>
+          <p class="en-line" data-i18n="mgmtBodyEn">NAZM AI is founded and primarily managed under Khidmatul Ummah Library.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CONTACT ============================ -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="contactTitle">যোগাযোগ</h2>
+          <p class="subtitle" data-i18n="contactSubtitle">Contact & Feedback</p>
+        </header>
+        <div class="contact-card reveal">
+          <p class="intro" data-i18n="contactIntro">পরামর্শ, মতামত, বাগ রিপোর্ট বা অ্যাপ-সংক্রান্ত যেকোনো প্রশ্নে যোগাযোগ করুন।</p>
+          <ul class="tag-list">
+            <li data-i18n="contactTypeSuggest">পরামর্শ (Suggestions)</li>
+            <li data-i18n="contactTypeFeedback">মতামত (Feedback)</li>
+            <li data-i18n="contactTypeBug">বাগ রিপোর্ট (Bug report)</li>
+            <li data-i18n="contactTypeInquiry">অ্যাপ-সংক্রান্ত প্রশ্ন (Inquiry)</li>
+          </ul>
+          <div class="contact-actions">
+            <a href="#" id="contactEmail" class="btn btn-primary" hidden data-i18n="contactEmailBtn">ইমেইল পাঠান</a>
+            <a href="#" id="contactFb" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" hidden data-i18n="contactFbBtn">Facebook-এ যোগাযোগ</a>
+          </div>
+          <p class="muted" id="contactNote" data-i18n="contactNotSet">যোগাযোগের তথ্য এখনো যুক্ত করা হয়নি।</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <img src="assets/logo-icon.png" alt="NAZM AI logo" width="48" height="48" />
+          <strong>NAZM AI</strong>
+        </div>
+        <p data-i18n="footerDesc">NAZM AI — একটি আধুনিক ব্যক্তিগত ব্যবস্থাপনা অ্যাপ।</p>
+      </div>
+      <div>
+        <h4 data-i18n="footerQuick">দ্রুত লিংক</h4>
+        <ul class="footer-links">
+          <li><a href="#about" data-i18n="navAbout">NAZM সম্পর্কে</a></li>
+          <li><a href="#features" data-i18n="navFeatures">ফিচার</a></li>
+          <li><a href="#preview" data-i18n="navPreview">অ্যাপ প্রিভিউ</a></li>
+          <li><a href="#updates" data-i18n="navUpdates">আপডেট</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footerDownload">ডাউনলোড</h4>
+        <ul class="footer-links">
+          <li><a href="#download" data-i18n="navDownload">ডাউনলোড</a></li>
+        </ul>
+        <h4 data-i18n="footerContact">যোগাযোগ</h4>
+        <ul class="footer-links">
+          <li><a href="#" id="footerMail" hidden>Email</a></li>
+          <li><a href="#" id="footerFb" target="_blank" rel="noopener noreferrer" hidden>Facebook</a></li>
+          <li><a href="#contact" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="small"><span data-i18n="footerFounder">Founder & Main Management:</span><br /><strong data-i18n="mgmtOrgName">খিদমাতুল উম্মাহ পাঠাগার</strong></p>
+        <p class="small"><span data-i18n="footerDeveloper">Application Developer:</span><br /><strong data-i18n="devNameEn">Sayed Jamil</strong></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p data-i18n="footerCopy">© 2026 NAZM AI. সর্বস্বত্ব সংরক্ষিত।</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top" data-i18n-aria="backToTop">↑</button>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer" hidden>
+    <button type="button" class="lb-close" id="lbClose" aria-label="Close">×</button>
+    <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+    <figure class="lb-figure">
+      <img id="lbImage" src="" alt="" />
+      <figcaption>
+        <strong id="lbCaption"></strong>
+        <span id="lbDesc"></span>
+        <small id="lbCount"></small>
+      </figcaption>
+    </figure>
+    <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Next image">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
