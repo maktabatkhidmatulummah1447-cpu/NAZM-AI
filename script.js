@@ -23,8 +23,6 @@ const CONFIG = {
   ANDROID_REQUIREMENTS: "",
 
   // Direct link to the APK on GitHub Releases. Empty = download disabled.
-  // Example format only (not a real link):
-  // "https://github.com/USERNAME/NAZM-AI/releases/download/v1.0.0/NAZM-AI.apk"
   APP_DOWNLOAD_URL: "https://github.com/maktabatkhidmatulummah1447-cpu/NAZM-AI/releases/download/v1.0.0/NAZM.AI.apk",
 
   // Update notes shown in the Updates section. Empty = placeholder shown.
@@ -53,7 +51,7 @@ const CONFIG = {
   DEVELOPER_PHOTO: "assets/developer.jpg",
 
   // Official website URL (used for the Open Graph tag).
-  WEBSITE_URL: "https://USERNAME.github.io/NAZM-AI-WEBSITE/",
+  WEBSITE_URL: "https://maktabatkhidmatulummah1447-cpu.github.io/NAZM-AI/",
 
   // Default language and theme (used on the first visit).
   DEFAULT_LANG: "bn",
